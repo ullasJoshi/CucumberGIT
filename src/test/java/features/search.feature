@@ -12,6 +12,7 @@ Examples:
 |Beetroot|
 |Brinjal|
 |Cucumber|
+|Brinjal|
 
 
 @SeleniumTest1

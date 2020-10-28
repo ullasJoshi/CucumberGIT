@@ -12,8 +12,8 @@ Examples:
 |Beetroot|
 |Brinjal|
 |Cucumber|
-|Tomato|
-|Potato|
+|Brinjal|
+
 
 @SeleniumTest1
 Scenario: Search for items and validate result for new type
