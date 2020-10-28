@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="48.929717">
+<testcase classname="Search and place order for vegitables" name="Search for items and validate result for new type" time="23.711526">
+<system-out><![CDATA[Given User is in the landing page...........................................passed
+When search for "Tomato" vegitable..........................................passed
+And Select the Item to cart.................................................passed
+And Click on CheckOut Option................................................passed
+Then Only "Tomato" is displayed in CheckedOut page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order for vegitables" name="Search for items and validate result for new type" time="25.218191">
+<system-out><![CDATA[Given User is in the landing page...........................................passed
+When search for "Tomato" vegitable..........................................passed
+And Select the Item to cart.................................................passed
+And Click on CheckOut Option................................................passed
+Then Only "Tomato" is displayed in CheckedOut page..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

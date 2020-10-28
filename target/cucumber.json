@@ -1,0 +1,242 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13992861392,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preCondition()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search for items and validate result for new type",
+        "description": "",
+        "id": "search-and-place-order-for-vegitables;search-for-items-and-validate-result-for-new-type",
+        "after": [
+          {
+            "result": {
+              "duration": 988145427,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165255819,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is in the landing page",
+            "match": {
+              "location": "MyStepDefinations.user_is_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3745354342,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "search for \"Tomato\" vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomato",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepDefinations.search_for_something_vegitable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 528569828,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Select the Item to cart",
+            "match": {
+              "location": "MyStepDefinations.select_the_item_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2106829917,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on CheckOut Option",
+            "match": {
+              "location": "MyStepDefinations.click_on_checkout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2184508876,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Only \"Tomato\" is displayed in CheckedOut page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomato",
+                  "offset": 6
+                }
+              ],
+              "location": "MyStepDefinations.only_something_is_displayed_in_checkedout_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@SeleniumTest1"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegitables",
+    "description": "",
+    "id": "search-and-place-order-for-vegitables",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12616644682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.preCondition()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search for items and validate result for new type",
+        "description": "",
+        "id": "search-and-place-order-for-vegitables;search-for-items-and-validate-result-for-new-type",
+        "after": [
+          {
+            "result": {
+              "duration": 806553085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.postOperation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106332,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is in the landing page",
+            "match": {
+              "location": "MyStepDefinations.user_is_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3314480561,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for \"Tomato\" vegitable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomato",
+                  "offset": 12
+                }
+              ],
+              "location": "MyStepDefinations.search_for_something_vegitable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4098463770,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the Item to cart",
+            "match": {
+              "location": "MyStepDefinations.select_the_item_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2147230300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on CheckOut Option",
+            "match": {
+              "location": "MyStepDefinations.click_on_checkout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2234711912,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Only \"Tomato\" is displayed in CheckedOut page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tomato",
+                  "offset": 6
+                }
+              ],
+              "location": "MyStepDefinations.only_something_is_displayed_in_checkedout_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@SeleniumTest1"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order for vegitables",
+    "description": "",
+    "id": "search-and-place-order-for-vegitables",
+    "keyword": "Feature",
+    "uri": "search2.feature"
+  }
+]
