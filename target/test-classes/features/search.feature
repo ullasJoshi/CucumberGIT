@@ -1,9 +1,4 @@
 Feature: Search and place order for vegitables
-
-
-
-
-
 @SeleniumTest
 Scenario Outline: Search for items and validate results
 Given User is on the landing page
@@ -18,6 +13,7 @@ Examples:
 |Brinjal|
 |Cucumber|
 |Tomato|
+|Potato|
 
 @SeleniumTest1
 Scenario: Search for items and validate result for new type
